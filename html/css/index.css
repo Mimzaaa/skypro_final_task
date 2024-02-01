@@ -1,30 +1,81 @@
 .logo {
-	 float: left;
+    float: left;
 }
- nav {
-	 float: right;
+body {
+    background: #63d3c4;
+    color: #b1effc;
 }
- nav ul {
-	 margin: 0;
-	 padding: 0;
-	 list-style: none;
+.col-1-1 .name {
+    color: rgb(39, 82, 3);
+    position: fixed;
+    top: 85px;
+    width: 100%;
+    left: 430px;
+    font-size: 50px;
+    font-weight: bolder;
 }
- nav li {
-	 display: inline-block;
+.git {
+    position: fixed;
+    top: 500px;
+    width: 100%;
+    left: 620px;
+    font-size: 30px;
 }
- body {
-	 background: #000000;
-	 color: #fff;
+.mac {
+    position: fixed;
+    top: 450px;
+    width: 100%;
+    left: 190px;
+    font-size: 30px;
 }
- a {
-	 color: #808000
+.win {
+    position: fixed;
+    top: 450px;
+    width: 100%;
+    left: 975px;
+    font-size: 30px;
 }
- h1 {
-	 color: #008080
+.cid {
+    position: fixed;
+    top: 720px;
+    width: 100%;
+    left: 870px;
+    font-size: 30px;
 }
- p {
-	 color: #008000
+.docker {
+    position: fixed;
+    top: 720px;
+    width: 100%;
+    left: 350px;
+    font-size: 30px;
 }
- ol {
-	 color: #008000
+.col-2-1 {
+    position: fixed;
+    top: 280px;
+    width: 100%;
+    left: 600px;
+}
+.col-2-2 {
+    position: fixed;
+    top: 280px;
+    width: 100%;
+    left: 130px;
+}
+.col-2-3 {
+    position: fixed;
+    top: 280px;
+    width: 100%;
+    left: 970px;
+}
+.col-2-4 {
+    position: fixed;
+    top: 550px;
+    width: 100%;
+    left: 300px;
+}
+.col-2-5 {
+    position: fixed;
+    top: 550px;
+    width: 100%;
+    left: 800px;
 }

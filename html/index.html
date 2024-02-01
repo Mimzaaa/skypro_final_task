@@ -7,39 +7,49 @@
     <style>
         .container {
          width: 1500px;
-         height: 400px;
-         background-image: linear-gradient(to right, #E2BCBB, #E4514A);
-         }
-         .col-1-2 {
-         width: 50%;
+         height: 100px;
+         background-image: linear-gradient(to right, hsl(161, 85%, 71%), #00932a);
          }
     </style>
 </head>
 <body>
   <div class="container">
-    <a href="jpg/logo.jpg" class="logo">Обучающий портал компании</a>
-    <nav>
-      <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="cmd.html">Командная строка Win</a></li>
-          <li><a href="macOS.html">Терминал Mac</a></li>
-          <li><a href="git.html">Команды Git</a></li>
-      </ul>
-    </nav>
+    <div class="col-1-1">
+      <p><a href="index.html"><img src="jpg/logo.jpg" width="300" height="200"></a></p>
+        <div class="name">ОБУЧАЮЩИЙ ПОРТАЛ КОМПАНИИ</div>
+    </div>
   </div>
-<div class="main">
-  <div class="container">
-    <div class="col-1-2">
-           <p><a href="index.html"><img src="jpg/logo.jpg" width="50" height="50" border="0"></a></p>
-    </div>
-    <div class="col-2-2">
-           <p><a href="cmd.html"><img src="jpg/git.jpg" width="50" height="50" border="0"></a></p>
-    </div>
-    <div class="col-1-2">
-           <p><a href="macOS.html"><img src="jpg/mac.jpg" width="50" height="50" border="0"></a></p>
-    </div>
-    <div class="col-2-2">
-           <p><a href="git.html"><img src="jpg/win.jpg" width="50" height="50" border="0"></a></p>
+  <div class="main">
+    <div class="container">
+      <div class="col-2-1">
+        <p><a href="git.html"><img src="jpg/git.jpg" width="200" height="200"></a></p>
+      </div>
+      <div class="col-2-2">
+        <p><a href="macOS.html"><img src="jpg/mac.jpg" width="300" height="150"></a></p>
+      </div>
+      <div class="col-2-3">
+        <p><a href="cmd.html"><img src="jpg/win.jpg" width="300" height="150"></a></p>
+      </div>
+      <div class="col-2-4">
+        <p><a href="docker.html"><img src="jpg/Docker.jpg" width="300" height="150"></a></p>
+      </div>
+      <div class="col-2-5">
+        <p><a href="ci_cd.html"><img src="jpg/ci_cd.jpg" width="300" height="150"></a></p>
+      </div>
+      <div class="git">
+       <a href="git.html">Команды Git</a>
+      </div>
+      <div class="mac">
+        <a href="macOS.html">Терминал Mac</a>
+      </div>
+      <div class="win">
+        <a href="cmd.html">Командная строка Win</a>
+      </div>
+      <div class="cid">
+        <a href="ci_cd.html">Этапы CI/CD</a>
+      </div>
+      <div class="docker">
+        <a href="docker.html">Команды Docker</a>
     </div>
   </div>
 </div>
